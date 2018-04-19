@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Khởi tạo và vẽ bàn cờ mới
     public void setupBoard() {
-        boardView = new BoardPane(getBaseContext(), 10, 700, 2);
+        boardView = new BoardPane(getBaseContext(), 8, 700, 2);
         imageView.setImageBitmap(boardView.drawBoard(2));
 
     }
