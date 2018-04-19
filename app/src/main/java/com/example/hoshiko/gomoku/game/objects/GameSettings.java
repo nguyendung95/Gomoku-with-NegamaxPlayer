@@ -16,7 +16,7 @@ public class GameSettings {
     public GameSettings() {
         this.player1 = PlayerType.HUMAN;
         this.player2 = PlayerType.COMPUTER;
-        this.size = 10;
+        this.size = 8;
 
     }
 
